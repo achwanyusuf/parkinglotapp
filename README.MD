@@ -20,5 +20,5 @@ This application is used for parking lot management
 
 ### Install using Docker
 1. Clone this app from github
-2. Build the docker image ```docker build -t achwanyusuf/parkinglotapp``` .
+2. Build the docker image ```docker build -t achwanyusuf/parkinglotapp .```
 3. Then run the application ```docker run -i -t achwanyusuf/parkinglotapp```
