@@ -1,0 +1,28 @@
+{
+  "name": "parkinglotapp",
+  "version": "1.0.0",
+  "description": "Parking lot Application",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "github.com/achwanyusuf/parkinglotapp"
+  },
+  "author": "Achwan Yusuf",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/index.test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Parking",
+    "Lot",
+    "App"
+  ]
+}
